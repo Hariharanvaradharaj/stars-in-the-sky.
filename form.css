@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+  
+}
+
+form{
+    color: rgb(194, 76, 30);
+    width: 40%;
+    border: 2px solid pink;
+    margin: 50px;
+    background-color: rgb(142, 226, 121);
+    margin-left: 30%;
+    margin-top: 10%;
+    border: 2px groove rgb(134, 85, 93);
+    border-radius: 20px;
+}
+
+label{
+    padding: 15px;
+}
+
+input [type="text"]{
+    height: 30px;
+    width: 30px;
+}
+
+button{
+    height: 28px;
+    width: 120px;
+    border: 2px groove gold;
+    border-radius: 8px;
+}
+.but2{
+    display: flex;
+    justify-content: center;
+    
+}
+.but2 button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+.but2 button:hover{
+    opacity: 0.7;
+
+}
+form h1{
+    text-align: center;
+    margin-top: 5%;
+}
